@@ -14,7 +14,7 @@ try
 }
 catch (FileNotFoundException e)
 {
-    Console.WriteLine($"The specified file does not exist: ${e.FileName}");
+    Console.WriteLine($"The specified file does not exist: {e.FileName}");
     return;
 }
 
